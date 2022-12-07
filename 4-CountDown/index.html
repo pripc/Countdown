@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(48, 48, 48);
+            margin:2px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header img{
+            margin: 10px auto auto 10px;
+        }
+
+        main section h1{
+            text-align:center;
+            color:white;
+            font-weight: 700;
+            font-size:35px;
+        }
+        #contagem{
+            color:white;
+            display:grid;
+            grid-auto-flow: column;
+            text-align: center;
+            margin-top:10%;
+            
+        }   
+
+    </style>
+</head>
+<body>
+    <header>
+        <img  src="Logo DNC.PNG" alt="Logomarca da Empresa DNC">
+    </header>
+    <main>
+        <section>
+            <h1>Count Down</h1>
+        </section>
+        <section id="contagem">
+            <div> 
+                <h2 id="dia">00</h2> 
+                <p>Dias</p> 
+            </div>
+            <div> 
+                <h2 id="horas">00</h2> 
+                <p>Horas</p> 
+            </div>
+            <div> 
+                <h2 id="minutos">00</h2> 
+                <p>Minutos</p> 
+            </div>
+            <div> 
+                <h2 id="segundos">00</h2> 
+                <p>Segundos</p> 
+            </div>
+  
+        </section>
+    </main>
+    <script src="countdown.js"></script>
+</body>
+</html>
